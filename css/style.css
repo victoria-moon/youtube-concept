@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px 32px;
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.menu-button:focus {
+    outline: none;
+}
+
+.menu-line {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #1F2022;
+    border-radius: 20px;
+}
+
+.logo {
+    margin-right: 59px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+    max-width: 830px;
+    width: 50%;
+    background: #EBEBEB;
+    border-radius: 22px;
+}
+
+.input-search {
+    padding: 12px 23px;
+    border: none;
+    background: transparent;
+}
+
+.button-search {
+    width: 19px;
+    height: 19px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.button-search:focus {
+    outline: none;
+}
+
+
+/* for svg sprite */
+.icon-search {
+    fill: #000;
+}
+
+.icon-video {
+    fill: #000;
+    opacity: 0.24;
+}
+
+.icon-apps {
+    fill: #000;
+    opacity: 0.24;
+}
+.icon-not {
+    fill: #000;
+    opacity: 0.24;
+}
+
+/* ================ */
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    margin-right: 45px;
+    margin-left: auto;
+}
+
+.icons-link {
+    text-decoration: none;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
