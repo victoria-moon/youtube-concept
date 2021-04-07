@@ -3,13 +3,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .header {
     display: flex;
     align-items: center;
     padding: 20px 70px 20px 32px;
+    margin-bottom: 30px;
 }
 
 .menu-button {
@@ -53,9 +56,15 @@ body {
 }
 
 .input-search {
+    width: 100%;
     padding: 12px 23px;
     border: none;
     background: transparent;
+    font-family: 'Mulish', sans-serif;
+}
+
+.input-search:focus {
+    outline: none;
 }
 
 .button-search {
@@ -108,4 +117,62 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.sidebar {
+    padding-left: 32px;
+}
+
+.nav-menu {
+    margin-top: 0;
+    margin-bottom: 60px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 28px;
+    
+    
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #898989;
+    font-size: 16px;
+    line-height: 20px;
+    transition: color 0.5s linear;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link .icon:hover {
+    fill: red;
+    opacity: 1;
+}
+
+.nav-item .icon {
+    fill: #000;
+    opacity: 0.24;
+    transition: opacity 0.5s linear;
+}
+
+.nav-text {
+    margin-left: 13px;
+}
+
+.nav-image {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.nav-title {
+    margin: 0 0 30px 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
 }
